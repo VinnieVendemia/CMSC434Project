@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/jquery-2.1.0.min.js"></script>
+	</head>
+
+
+	<body>
+		
+
+	<!-- place items in the top bar here -->
+	<div id="top_bar">
+		<table>
+				<tr>
+					<td><h1 class="title">Homework Hero</h1></td>
+					<td><img class="avatar" src="images/avatar-body.png"></td>
+					<td>
+						<table id="class_stats">
+							<tr>
+								<td>My Grade</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Class Average</td>
+								<td>B</td>
+							</tr>
+						</table>
+					</td>
+					<td><h3 id="logout">Logout</h3></td>
+				</tr>
+
+		</table>
+	</div>
+
+	<div id="wrapper">
+		<!-- place main content within here -->
+		<div id="main_content">
+			<h1>Math</h1>
+		</div>
+
+		<!-- place items in the side bar here  -->
+		<div id="side_bar">
+			<div id="tabs">
+				<ul class="tabrow">
+			    <li>Info</li>
+			    <li>Classes</li>
+			    <li>Homework</li>
+				</ul>
+			</div>
+
+			<div id="side_bar_content">
+				<table>
+					<tr>
+						<td><h3 id="classes_header">Classes</h3></td>
+					</tr>
+					<tr>
+						<td><h3 id="math_class_item">Math</h3></td>
+					</tr>
+					<tr>
+						<td><h3 id="assignment_item1">Assignments</h3></td>
+					</tr>
+					<tr>
+						<td><h3 id="assignment_item2">assignment 1</h3></td>
+					</tr>
+					<tr>
+						<td><h3 id="class_item">History</h3></td>
+					</tr>
+					<tr>
+						<td><h3 id="class_item">Science</h3></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	</body>
+
+<script>
+$( "#math_class_item" ).click(function () {
+  if ( $( "#assignment_item1" ).is( ":hidden" ) ) {
+    $( "#assignment_item1" ).slideDown( "slow" );
+    $( "#assignment_item2" ).slideDown( "slow" );
+  } else {
+    $( "#assignment_item1" ).hide();
+    $( "#assignment_item2" ).hide();
+  }
+});
+</script>
+
+
+</html>

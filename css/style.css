@@ -1,0 +1,158 @@
+
+
+/* For matching colors, see http://www.colorcombos.com/color-schemes/2454/ColorCombo2454.html */
+
+body {
+	margin: 0px; 
+}
+
+#top_bar {
+	background-color: #13A1CB;
+	height: 20%;
+	width: 100%;
+	display: block;
+}
+
+h1.title {
+	color: white;
+	font-size: 3em;
+	padding-top: 35px;
+	padding-left: 45px;
+	padding-right: 5px; 
+}
+
+#top_bar img.avatar {
+	height: 100px;
+	padding-left: 150px;
+
+}
+
+#class_stats {
+	color: white;
+	padding-left: 100px;
+}
+
+tr {
+	margin: 3px;
+}
+
+td {
+	margin:3px;
+}
+
+#tabs {
+	width: 40px;
+	height: 300px;
+	float: left;
+}
+
+.tabrow {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.tabrow li {
+    padding: 0 10px;
+    margin-bottom: 80px;
+    border: 1px solid #AAA;
+    background: white;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#side_bar_content {
+
+	width: 170px;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 20px;
+	float: right;
+
+}
+
+#logout {
+	width: 120px;	
+	height: 40px;
+	background-color: white;
+	margin-left: 200px;
+	text-align: center;
+}
+
+#classes_header {
+	color: #13A1CB;
+	background-color: white;
+	text-align: center;
+	width: 170px;
+	height:100px;
+}
+
+#class_item {
+	color: #13A1CB;
+	background-color: white;
+	text-align: center;
+	width: 170px;
+	height:30px;
+}
+
+#math_class_item {
+	color: #13A1CB;
+	background-color: white;
+	width: 170px;
+	text-align: center;
+	height:30px;
+}
+
+#assignments {
+	height: 100px;
+	width: 170px;
+	display: none;
+}
+
+#assignment_item1 {
+	color: white;
+	background-color: #EB77A6;
+	width: 170px;
+	height:25px;
+	text-align: center;
+	display: none;
+}
+#assignment_item2 {
+	color: white;
+	background-color: #EB77A6;
+	width: 150px;
+	height:20px;
+	margin-left: 20px;
+	text-align: center;
+	display: none;
+}
+
+#wrapper {
+	display: block;
+}
+
+#side_bar {
+	background-color: #13A1CB;
+	height: 80%;
+	width: 20%;
+	float: left;
+	display: block;
+}
+
+#main_content {
+	background-color: #EB77A6;
+	height: 80%;
+	width: 80%;
+	float:right;
+}
